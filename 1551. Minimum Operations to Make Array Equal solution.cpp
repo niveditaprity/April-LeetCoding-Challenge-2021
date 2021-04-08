@@ -6,11 +6,8 @@ public:
             int N=(n-1)/2;
             return N*(N+1);
         }
-        else
-        {
             n=n/2;
             return n*n;
-        }
         
     }
 };
